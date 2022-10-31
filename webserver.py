@@ -12,8 +12,8 @@ relay = Pin(16, Pin.OUT)
 sensor_temp = machine.ADC(4)
 conversion_factor = 3.3  (65535)
   
-ssid = 'ZomaarEenHotspot'
-password = 'pass1234'
+ssid = '#####'
+password = '####'
  
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
